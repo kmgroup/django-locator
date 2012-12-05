@@ -16,17 +16,20 @@ def locations(request):
     count = 1
     for location in locations:
         formatted_locations.append({
-            'id': count,
+            'id': str(count),
             'locname': location.name,
             'lat': location.latitude,
             'lng': location.longitude,
             'address': location.street,
+            'address2': '',
             'city': location.city,
             'state': location.state,
             'postal': location.postal,
             'phone': location.phone,
             'web': location.website,
             'hours1': location.hours,
+            'hours2': '',
+            'hours3': '',
         })
         count += 1
     return HttpResponse(json.dumps(formatted_locations),

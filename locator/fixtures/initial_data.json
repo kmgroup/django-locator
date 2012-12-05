@@ -1,0 +1,322 @@
+[
+  {
+    "pk": "1"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.947464",
+      "longitude": "-93.320826",
+      "street": "3040 Excelsior Blvd",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55416",
+      "phone": "612-922-6662",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "2"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle St. Louis Park",
+      "latitude": "44.930810",
+      "longitude": "-93.347877",
+      "street": "5480 Excelsior Blvd.",
+      "city": "St. Louis Park",
+      "state": "MN",
+      "postal": "55416",
+      "phone": "952-922-1970",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "3"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.991565",
+      "longitude": "-93.216323",
+      "street": "2600 Hennepin Ave.",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55404",
+      "phone": "612-377-6035",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "4"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Golden Valley",
+      "latitude": "44.983935",
+      "longitude": "-93.380542",
+      "street": "515 Winnetka Ave. N",
+      "city": "Golden Valley",
+      "state": "MN",
+      "postal": "55427",
+      "phone": "763-544-2530",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "5"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Hopkins",
+      "latitude": "44.924363",
+      "longitude": "-93.410158",
+      "street": "786 Mainstreet",
+      "city": "Hopkins",
+      "state": "MN",
+      "postal": "55343",
+      "phone": "952-935-0044",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "6"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.973557",
+      "longitude": "-93.275111",
+      "street": "1040 Nicollet Ave",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55403",
+      "phone": "612-659-7955",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "7"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.97774",
+      "longitude": "-93.270909",
+      "street": "50 South 6th",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55402",
+      "phone": "612-333-0434",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "8"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Edina",
+      "latitude": "44.879826",
+      "longitude": "-93.321280",
+      "street": "6801 York Avenue South",
+      "city": "Edina",
+      "state": "MN",
+      "postal": "55435",
+      "phone": "952-926-6651",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "9"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minnetonka",
+      "latitude": "44.970495",
+      "longitude": "-93.437430",
+      "street": "12509 Wayzata Blvd",
+      "city": "Minnetonka",
+      "state": "MN",
+      "postal": "55305",
+      "phone": "952-252-4900",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "10"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.972808",
+      "longitude": "-93.247153",
+      "street": "229 Cedar Ave S",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55454",
+      "phone": "612-659-7830",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "11"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.987687",
+      "longitude": "-93.257581",
+      "street": "225 Hennepin Ave E",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55414",
+      "phone": "612-331-6330",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "12"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Minneapolis",
+      "latitude": "44.973665",
+      "longitude": "-93.227023",
+      "street": "800 Washington Ave SE",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal": "55414",
+      "phone": "612-378-7078",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "13"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Bloomington",
+      "latitude": "44.8458631",
+      "longitude": "-93.2860161",
+      "street": "322 South Ave",
+      "city": "Bloomington",
+      "state": "MN",
+      "postal": "55425",
+      "phone": "952-252-3800",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "14"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Wayzata",
+      "latitude": "44.9716626",
+      "longitude": "-93.4967757",
+      "street": "1313 Wayzata Blvd",
+      "city": "Wayzata",
+      "state": "MN",
+      "postal": "55391",
+      "phone": "952-473-7100",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "15"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Eden Prairie",
+      "latitude": "44.859761",
+      "longitude": "-93.436379",
+      "street": "13250 Technology Dr",
+      "city": "Eden Prairie",
+      "state": "MN",
+      "postal": "55344",
+      "phone": "952-934-5955",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "16"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Plymouth",
+      "latitude": "45.019846",
+      "longitude": "-93.481832",
+      "street": "3425 Vicksburg Lane N",
+      "city": "Plymouth",
+      "state": "MN",
+      "postal": "55447",
+      "phone": "763-519-0063",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "17"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Roseville",
+      "latitude": "44.998965",
+      "longitude": "-93.194622",
+      "street": "860 Rosedale Center Plaza",
+      "city": "Roseville",
+      "state": "MN",
+      "postal": "55113",
+      "phone": "651-633-2300",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "18"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle St. Paul",
+      "latitude": "44.939865",
+      "longitude": "-93.136768",
+      "street": "867 Grand Ave",
+      "city": "St. Paul",
+      "state": "MN",
+      "postal": "55105",
+      "phone": "651-602-0560",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "19"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle Chanhassen",
+      "latitude": "44.858736",
+      "longitude": "-93.533661",
+      "street": "560 W 79th",
+      "city": "Chanhassen",
+      "state": "MN",
+      "postal": "55317",
+      "phone": "952-294-0301",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  },
+  {
+    "pk": "20"
+    "model": "locator.location",
+    "fields": {
+      "name": "Chipotle St. Paul",
+      "latitude": "44.945127",
+      "longitude": "-93.095368",
+      "street": "29 5th St West",
+      "city": "St. Paul",
+      "state": "MN",
+      "postal": "55102",
+      "phone": "651-291-5411",
+      "website": "http:\/\/www.chipotle.com",
+      "hours": "Mon-Sun 11am-10pm"
+    }
+  }
+]

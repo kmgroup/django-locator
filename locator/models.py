@@ -20,9 +20,9 @@ class Location(models.Model):
         return ''.join([
             self.name,
             ' (',
-            self.latitude,
+            self.city,
             ', ',
-            self.longitude,
+            self.state,
             ')',
         ])
 

@@ -4,7 +4,7 @@ from .models import Location
 
 
 class LocationAdmin(admin.ModelAdmin):
-    list_display = ('name', 'latitude', 'longitude', 'city', 'state')
+    list_display = ('name', 'city', 'state', 'latitude', 'longitude')
     list_filter = ('city', 'state')
     fieldsets = (
         (None, {
