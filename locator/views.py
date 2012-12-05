@@ -2,7 +2,6 @@ import json
 
 from django.template.response import TemplateResponse
 from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
 
 from .models import Location
 
@@ -11,7 +10,6 @@ def locator(request):
     return TemplateResponse(request, 'locator/locator.html')
 
 
-@csrf_excempt
 def locations(request):
     locations = Location.objects.all()
     formatted_locations = []
