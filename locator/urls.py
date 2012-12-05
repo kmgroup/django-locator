@@ -5,6 +5,6 @@ from .views import locator, locations
 
 urlpatterns = patterns('',
     url(r'^$', locator, name='locator'),
-    url(r'^locations/$', locator, name='locations'),
+    url(r'^locations/$', locations, name='locations'),
 )
 

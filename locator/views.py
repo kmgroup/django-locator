@@ -2,6 +2,7 @@ import json
 
 from django.template.response import TemplateResponse
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 
 from .models import Location
 
@@ -10,6 +11,7 @@ def locator(request):
     return TemplateResponse(request, 'locator/locator.html')
 
 
+@csrf_excempt
 def locations(request):
     locations = Location.objects.all()
     formatted_locations = []
@@ -27,7 +29,7 @@ def locations(request):
             'phone': location.phone,
             'web': location.website,
             'hours1': location.hours,
-        }]
+        })
         count += 1
     return HttpResponse(json.dumps(formatted_locations),
                         mimetype='application/json')
