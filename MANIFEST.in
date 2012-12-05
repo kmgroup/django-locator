@@ -1,0 +1,3 @@
+include README.md
+recursive-include locator/static *
+recursive-include locator/templates *
