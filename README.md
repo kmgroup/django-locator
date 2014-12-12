@@ -1,3 +1,5 @@
+**This project is no longer under development, if you'd like to fork and continue the project please do! Let me know your fork and I'll link to it.**
+
 # django-locator
 
 An easy to integrate store locator plugin for Django.
