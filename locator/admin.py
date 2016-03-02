@@ -28,6 +28,7 @@ class LocationAdmin(admin.ModelAdmin):
         }),
     )
     actions = [make_active, make_active_not]
+    ordering = ('-active', 'name')
 
 
 admin.site.register(Location, LocationAdmin)
