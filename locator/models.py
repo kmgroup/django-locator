@@ -14,6 +14,7 @@ class Location(models.Model):
     postal = models.CharField(verbose_name='Zip/Postcode', max_length=70)
 
     phone = models.CharField(max_length=70, blank=True)
+    email = models.EmailField(blank=True)
     website = models.CharField(max_length=70, blank=True)
     hours = models.CharField(max_length=70, blank=True)
 

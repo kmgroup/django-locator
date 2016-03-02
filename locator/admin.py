@@ -24,7 +24,7 @@ class LocationAdmin(admin.ModelAdmin):
             'fields': ('street', ('city', 'state', 'postal'))
         }),
         ('Optional', {
-            'fields': ('phone', 'website', 'hours')
+            'fields': ('phone', 'website', 'email', 'hours')
         }),
     )
     actions = [make_active, make_active_not]
