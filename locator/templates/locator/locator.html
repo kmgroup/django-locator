@@ -43,7 +43,7 @@
             $(function() {
                 $('#map-container').storeLocator({
                     'jsonData': true,
-                    'dataLocation': '{% url locator:locations %}',
+                    'dataLocation': '{% url "locator:locations" %}',
                 });
             });
         </script>

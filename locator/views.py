@@ -7,7 +7,7 @@ from .models import Location
 
 
 def locator(request):
-    return TemplateResponse(request, 'locator/locator.html')
+    return TemplateResponse(request, 'locator/locator.html', {})
 
 
 def locations(request):
@@ -33,4 +33,4 @@ def locations(request):
         })
         count += 1
     return HttpResponse(json.dumps(formatted_locations),
-                        mimetype='application/json')
+                        content_type='application/json')
