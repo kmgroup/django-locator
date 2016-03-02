@@ -3,6 +3,7 @@ from django.db import models
 
 class Location(models.Model):
     name = models.CharField(max_length=70)
+    active = models.BooleanField("active", default=True)
 
     latitude = models.CharField(max_length=70)
     longitude = models.CharField(max_length=70)

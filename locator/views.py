@@ -11,7 +11,7 @@ def locator(request):
 
 
 def locations(request):
-    locations = Location.objects.all()
+    locations = Location.objects.filter(active=True)
     formatted_locations = []
     count = 1
     for location in locations:
