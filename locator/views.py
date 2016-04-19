@@ -26,6 +26,7 @@ def locations(request):
             'state': location.state,
             'postal': location.postal,
             'phone': location.phone,
+            'fax': location.fax,
             'email': location.email,
             'web': location.website,
             'hours1': location.hours,
